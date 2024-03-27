@@ -8,8 +8,7 @@
   "description": "",
   "scripts": {
     "test": "jest --testRegex=.spec.ts",
-    "test:watch": "jest --testRegex=.spec.ts --watchAll",
-    "start": "ts-node ./src/${npm_config_target}.ts"
+    "test:watch": "jest --testRegex=.spec.ts --watchAll"
   },
   "dependencies": {
     "@types/jest": "^29.5.12",

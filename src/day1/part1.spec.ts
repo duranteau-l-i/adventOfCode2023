@@ -1,3 +1,4 @@
+import { fileToArray } from "../getInput";
 import main from "./part1";
 
 describe("DAY 1", () => {
@@ -9,20 +10,11 @@ describe("DAY 1", () => {
     expect(result).toEqual(142);
   });
 
-  it("should return 77", () => {
-    const list = [
-      "threehqv2",
-      "sxoneightoneckk9ldctxxnffqnzmjqvj",
-      "1hggcqcstgpmg26lzxtltcgg",
-      "nrhoneightkmrjkd7fivesixklvvfnmhsldrc",
-      "zhlzhrkljonephkgdzsnlglmxvprlh6n",
-      "594chhplnzsxktjmkfpninefiveczfnvsctbxcfzfzjh",
-      "seven2tjf",
-      "five712"
-    ];
+  it("should return 54388", () => {
+    const list = fileToArray("day1/part1.txt");
 
     const result = main(list);
 
-    expect(result).toEqual(428);
+    expect(result).toEqual(54388);
   });
 });
