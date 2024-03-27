@@ -21,3 +21,10 @@ $ npm test
 # unit tests watch mode
 $ npm run test:watch
 ```
+
+## Run a day
+
+```bash
+# example for day1 part1
+$ npm run start --target=day1/part1
+```
