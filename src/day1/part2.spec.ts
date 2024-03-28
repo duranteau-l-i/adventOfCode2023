@@ -1,7 +1,7 @@
 import { fileToArray } from "../getInput";
 import main from "./part2";
 
-describe("DAY 2", () => {
+describe("DAY 1 - PART 2", () => {
   it("should return 281", () => {
     const list = [
       "two1nine",
