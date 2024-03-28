@@ -17,7 +17,7 @@ describe("DAY 2 - PART 1", () => {
   });
 
   it("should return 2545", () => {
-    const list = fileToArray("day2/part1.txt");
+    const list = fileToArray("day2/input.txt");
 
     const result = main(list, { red: 12, green: 13, blue: 14 });
 

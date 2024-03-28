@@ -19,7 +19,7 @@ describe("DAY 1 - PART 2", () => {
   });
 
   it("should return 53515", () => {
-    const list = fileToArray("day1/part1.txt");
+    const list = fileToArray("day1/input.txt");
 
     const result = main(list);
 
